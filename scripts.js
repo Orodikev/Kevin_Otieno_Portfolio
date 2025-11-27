@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const summary = document.getElementById("summary");
 
     const fullText = summary.textContent.trim();
-    summary.textContent = "";
-    summary.style.display = "none";
+    summary.textContent.display = "block";
+    summary.style.display = "block";
 
     title.addEventListener("click", () => {
         summary.style.display = "block";

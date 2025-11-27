@@ -97,7 +97,10 @@ hr {
 }
 
 .career-objective #title,
-.skills #title {
+.skills #skills-title,
+.Education #Edu-title,
+.Work-experience #Work-title,
+.Referees .Referees-title {
     cursor: pointer;
     text-align: left;
     margin-bottom: 10px;
@@ -109,7 +112,10 @@ hr {
     transition: 0.3s;
 }
 .career-objective #title:hover,
-.skills #title:hover {
+.skills #skills-title:hover,
+.Education #Edu-title:hover,
+.Work-experience #Work-title:hover,
+.Referees .Referees-title:hover {
     color: #2471cf;
 }
 .career-objective #summary,
@@ -124,11 +130,11 @@ hr {
     margin: 0px;
     box-sizing: fit-content;
 }
-.skills-category {
+#skills-content {
     display: flex;
     flex-direction: left;
     margin-top: auto;
     gap: 15px;
     box-sizing: fit-content;
-
+    align-content: center;
 }
